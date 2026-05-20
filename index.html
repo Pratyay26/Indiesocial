@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="IndieSocial – Content That Actually Connects. A premium digital growth agency helping brands scale through social media, content creation, branding, and performance marketing." />
+  <meta name="keywords" content="digital agency, social media marketing, content creation, branding, performance marketing, IndieSocial" />
+  <title>IndieSocial — Content That Actually Connects</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-mark">IS</span>
+        <span class="logo-text">IndieSocial</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Book a Call</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <ul>
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#services" class="mobile-link">Services</a></li>
+        <li><a href="#portfolio" class="mobile-link">Portfolio</a></li>
+        <li><a href="#team" class="mobile-link">Team</a></li>
+        <li><a href="#pricing" class="mobile-link">Pricing</a></li>
+        <li><a href="#blog" class="mobile-link">Blog</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <canvas class="hero-canvas" id="heroCanvas"></canvas>
+    <div class="hero-grid"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal-up">
+        <span class="badge-dot"></span>
+        Premium Digital Growth Agency · Est. 2026
+      </div>
+      <h1 class="hero-heading reveal-up delay-1">
+        Content That<br /><em>Actually</em> Connects
+      </h1>
+      <p class="hero-sub reveal-up delay-2">
+        We help ambitious brands scale digitally — through bold social media strategies, cinematic content creation, and performance-driven marketing that turns attention into revenue.
+      </p>
+      <div class="hero-ctas reveal-up delay-3">
+        <a href="#contact" class="btn-primary">
+          <span>Book Strategy Call</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#portfolio" class="btn-ghost">View Portfolio</a>
+      </div>
+      <div class="hero-scroll reveal-up delay-4">
+        <div class="scroll-line"></div>
+        <span>Scroll to explore</span>
+      </div>
+    </div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="hero-orb hero-orb-3"></div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-left reveal-left">
+          <div class="section-tag">About IndieSocial</div>
+          <h2 class="section-heading">We Build Brands<br />That <em>Dominate</em> Feeds</h2>
+          <p class="about-text">IndieSocial is a digital growth agency born from a obsession with storytelling and performance. We blend creativity with data to craft strategies that don't just look good — they drive measurable results for forward-thinking brands.</p>
+          <p class="about-text">From startups finding their voice to enterprises scaling their reach, our team delivers digital excellence at every touchpoint — consistently, creatively, and at scale.</p>
+          <div class="about-tags">
+            <span class="tag">Social Media</span>
+            <span class="tag">Content Creation</span>
+            <span class="tag">Branding</span>
+            <span class="tag">Performance Marketing</span>
+          </div>
+        </div>
+        <div class="about-right reveal-right">
+          <div class="counters-grid">
+            <div class="counter-card">
+              <span class="counter-num" data-target="150">0</span><span class="counter-plus">+</span>
+              <span class="counter-label">Clients Served</span>
+            </div>
+            <div class="counter-card">
+              <span class="counter-num" data-target="48">0</span><span class="counter-plus">M+</span>
+              <span class="counter-label">Campaign Reach</span>
+            </div>
+            <div class="counter-card">
+              <span class="counter-num" data-target="320">0</span><span class="counter-plus">+</span>
+              <span class="counter-label">Projects Delivered</span>
+            </div>
+            <div class="counter-card">
+              <span class="counter-num" data-target="215">0</span><span class="counter-plus">%</span>
+              <span class="counter-label">Avg Engagement Growth</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-heading">End-to-End Digital<br /><em>Growth Services</em></h2>
+        <p class="section-sub">From strategy to execution — every service crafted for brands that refuse to be ordinary.</p>
+      </div>
+      <div class="services-grid">
+
+        <div class="service-card reveal-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/><path d="M16 24a8 8 0 0 1 16 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="28" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3>Social Media Management</h3>
+          <p>Full-service management across Instagram, LinkedIn, Facebook, X, Threads & YouTube — from planning to analytics.</p>
+          <ul class="service-list">
+            <li>Content Planning & Scheduling</li>
+            <li>Captions & Hashtag Strategy</li>
+            <li>Story & Reel Management</li>
+            <li>Community Engagement</li>
+            <li>Monthly Analytics Reports</li>
+          </ul>
+          <div class="service-platforms">
+            <span>Instagram</span><span>LinkedIn</span><span>YouTube</span><span>+3</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="12" width="32" height="24" rx="3" stroke="currentColor" stroke-width="2"/><path d="M20 18l10 6-10 6V18z" fill="currentColor"/></svg>
+          </div>
+          <h3>Content Creation</h3>
+          <p>Thumb-stopping content engineered for virality — reels, carousels, memes, and trend-based creatives.</p>
+          <ul class="service-list">
+            <li>Reels & Short-Form Video Editing</li>
+            <li>Carousel & Infographic Design</li>
+            <li>Meme & Trend Marketing</li>
+            <li>Product Creative Design</li>
+            <li>Scripting & Storyboarding</li>
+          </ul>
+          <div class="service-platforms">
+            <span>Reels</span><span>Shorts</span><span>TikTok</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up delay-3">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><polygon points="24,6 44,38 4,38" stroke="currentColor" stroke-width="2" fill="none"/><circle cx="24" cy="28" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3>Branding & Identity</h3>
+          <p>We craft brand identities that command respect — from logos to full brand guidelines that tell your story.</p>
+          <ul class="service-list">
+            <li>Logo Design & Brand Mark</li>
+            <li>Color Palette & Typography</li>
+            <li>Brand Guidelines Document</li>
+            <li>Packaging & Mockup Design</li>
+            <li>Social Media Kit</li>
+          </ul>
+          <div class="service-platforms">
+            <span>Visual Identity</span><span>Brand Strategy</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 36l8-12 8 6 8-16 8 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="40" cy="22" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3>Performance Marketing</h3>
+          <p>Data-driven paid campaigns that fill your pipeline — Meta Ads, Google Ads, and YouTube Ads built to convert.</p>
+          <ul class="service-list">
+            <li>Lead Generation Campaigns</li>
+            <li>Sales & Conversion Funnels</li>
+            <li>Retargeting & Lookalike Ads</li>
+            <li>Funnel Optimization & A/B Tests</li>
+            <li>ROI Reporting Dashboards</li>
+          </ul>
+          <div class="service-platforms">
+            <span>Meta Ads</span><span>Google Ads</span><span>YouTube Ads</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="8" width="36" height="28" rx="3" stroke="currentColor" stroke-width="2"/><path d="M16 40h16M24 36v4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Website Development</h3>
+          <p>High-converting websites and landing pages built for speed, SEO, and business results.</p>
+          <ul class="service-list">
+            <li>Landing Pages & Sales Pages</li>
+            <li>Portfolio & Business Websites</li>
+            <li>Shopify Stores</li>
+            <li>Link-in-Bio Pages</li>
+            <li>SEO-Optimized Architecture</li>
+          </ul>
+          <div class="service-platforms">
+            <span>HTML/CSS</span><span>Shopify</span><span>WordPress</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up delay-3">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M12 36V24l12-12 12 12v12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="19" y="28" width="10" height="8" rx="1" stroke="currentColor" stroke-width="2"/></svg>
+          </div>
+          <h3>Video Editing</h3>
+          <p>Cinema-grade editing for social — reels, shorts, podcast clips, and motion graphics that stop thumbs.</p>
+          <ul class="service-list">
+            <li>Reels & YouTube Shorts Editing</li>
+            <li>Podcast Clip Cuts</li>
+            <li>Motion Graphics & Animations</li>
+            <li>Viral Edit Style & Pacing</li>
+            <li>Subtitles & Captions</li>
+          </ul>
+          <div class="service-platforms">
+            <span>Premiere Pro</span><span>After Effects</span><span>CapCut</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up delay-1">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="2"/><path d="M24 14V8M24 40v-6M14 24H8M40 24h-6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="24" cy="24" r="3" fill="currentColor"/></svg>
+          </div>
+          <h3>AI Content & Automation</h3>
+          <p>Leverage AI-powered tools for smarter workflows, faster content, and automated lead capture systems.</p>
+          <ul class="service-list">
+            <li>AI Chatbot Setup & Integration</li>
+            <li>Automated DM & Reply Systems</li>
+            <li>AI-Generated Visual Creatives</li>
+            <li>Email Automation Sequences</li>
+            <li>Lead Capture Funnels</li>
+          </ul>
+          <div class="service-platforms">
+            <span>ManyChat</span><span>Make.com</span><span>OpenAI</span>
+          </div>
+        </div>
+
+        <div class="service-card reveal-up delay-2">
+          <div class="service-icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="16" r="8" stroke="currentColor" stroke-width="2"/><path d="M8 40c0-8.837 7.163-16 16-16s16 7.163 16 16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Personal Brand Management</h3>
+          <p>Build undeniable personal authority — for coaches, founders, doctors, realtors, and creators.</p>
+          <ul class="service-list">
+            <li>LinkedIn & Instagram Growth</li>
+            <li>Thought Leadership Content</li>
+            <li>Personal Authority Building</li>
+            <li>Content Strategy & Calendar</li>
+            <li>Ghost-Writing & Posting</li>
+          </ul>
+          <div class="service-platforms">
+            <span>Coaches</span><span>Founders</span><span>Creators</span><span>+</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTFOLIO ===== -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Our Work</div>
+        <h2 class="section-heading">Campaigns That <em>Delivered</em></h2>
+        <p class="section-sub">A curated selection of brands we've built, scaled, and transformed.</p>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-card reveal-up delay-1">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+            <div class="portfolio-thumb-icon">⚡</div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Social Media + Branding</span>
+            <h3>VoltCo Energy</h3>
+            <p>Complete brand overhaul and social media launch campaign for a sustainable energy startup.</p>
+            <div class="portfolio-results">
+              <span>↑ 340% Reach</span>
+              <span>↑ 12K Followers in 60 days</span>
+            </div>
+            <a href="#" class="portfolio-btn">View Project ↗</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal-up delay-2">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #1a0533 0%, #2d1b69 50%, #4c2d8f 100%);">
+            <div class="portfolio-thumb-icon">🏠</div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Performance Marketing</span>
+            <h3>NestHaven Realty</h3>
+            <p>Meta Ads lead generation funnel for a premium real estate brand targeting HNI buyers.</p>
+            <div class="portfolio-results">
+              <span>↑ 480 Qualified Leads</span>
+              <span>↓ 68% Cost Per Lead</span>
+            </div>
+            <a href="#" class="portfolio-btn">View Project ↗</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal-up delay-3">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #0a2018 0%, #0d3b25 50%, #1a6641 100%);">
+            <div class="portfolio-thumb-icon">🌿</div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Content Creation + Video</span>
+            <h3>Verdure Organics</h3>
+            <p>Monthly content creation & reels strategy for a D2C wellness & skincare brand.</p>
+            <div class="portfolio-results">
+              <span>↑ 2.1M Reel Views</span>
+              <span>↑ 5x Revenue in 3 months</span>
+            </div>
+            <a href="#" class="portfolio-btn">View Project ↗</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal-up delay-1">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #1e0a00 0%, #3d1a00 50%, #7a3d00 100%);">
+            <div class="portfolio-thumb-icon">☕</div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Branding + Website</span>
+            <h3>Kaffé Collective</h3>
+            <p>Full brand identity design and Shopify store development for an artisan coffee brand.</p>
+            <div class="portfolio-results">
+              <span>↑ 220% Online Sales</span>
+              <span>↑ 4.8★ Brand Trust Score</span>
+            </div>
+            <a href="#" class="portfolio-btn">View Project ↗</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal-up delay-2">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #001a33 0%, #003366 50%, #0055aa 100%);">
+            <div class="portfolio-thumb-icon">💼</div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Personal Brand + LinkedIn</span>
+            <h3>Aryan Mehta — Founder</h3>
+            <p>LinkedIn personal brand strategy for a SaaS founder growing to thought leadership status.</p>
+            <div class="portfolio-results">
+              <span>↑ 38K LinkedIn Followers</span>
+              <span>↑ 3 Inbound Partnerships/mo</span>
+            </div>
+            <a href="#" class="portfolio-btn">View Project ↗</a>
+          </div>
+        </div>
+
+        <div class="portfolio-card reveal-up delay-3">
+          <div class="portfolio-thumb" style="background: linear-gradient(135deg, #1a001a 0%, #330033 50%, #660066 100%);">
+            <div class="portfolio-thumb-icon">🎵</div>
+          </div>
+          <div class="portfolio-info">
+            <span class="portfolio-tag">Content + AI Automation</span>
+            <h3>BeatForge Studios</h3>
+            <p>AI-powered content automation and YouTube growth strategy for an independent music studio.</p>
+            <div class="portfolio-results">
+              <span>↑ 500K YouTube Views</span>
+              <span>↑ 80% Reduction in Content Time</span>
+            </div>
+            <a href="#" class="portfolio-btn">View Project ↗</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CASE STUDIES ===== -->
+  <section class="case-studies" id="case-studies">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Case Studies</div>
+        <h2 class="section-heading">The Strategy <em>Behind</em> the Results</h2>
+      </div>
+
+      <div class="case-card reveal-up delay-1">
+        <div class="case-number">01</div>
+        <div class="case-content">
+          <div class="case-col">
+            <div class="case-label">Challenge</div>
+            <h3>VoltCo Had Zero Online Presence</h3>
+            <p>A sustainable energy startup launching in a crowded market with no brand identity, no social presence, and a 90-day window to gain investor credibility.</p>
+          </div>
+          <div class="case-col">
+            <div class="case-label">Strategy</div>
+            <h3>Brand First, Then Amplify</h3>
+            <p>We built their identity from scratch — logo, brand voice, visual system — then launched with a coordinated content calendar across LinkedIn & Instagram with daily storytelling reels.</p>
+          </div>
+          <div class="case-col">
+            <div class="case-label">Results</div>
+            <div class="case-results">
+              <div class="case-stat"><span>340%</span>Organic Reach Growth</div>
+              <div class="case-stat"><span>12K</span>Followers in 60 Days</div>
+              <div class="case-stat"><span>3</span>Investor Meetings Booked</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case-card reveal-up delay-2">
+        <div class="case-number">02</div>
+        <div class="case-content">
+          <div class="case-col">
+            <div class="case-label">Challenge</div>
+            <h3>NestHaven's Ads Were Burning Budget</h3>
+            <p>A real estate brand spending ₹1.5L/month on Meta Ads with a CPL of ₹4,200 — quality leads were rare, and sales pipeline was dry.</p>
+          </div>
+          <div class="case-col">
+            <div class="case-label">Strategy</div>
+            <h3>Funnel Rebuild + Audience Restructure</h3>
+            <p>Rebuilt ad creatives, restructured audiences using lookalikes of top-1% buyers, built a 3-stage retargeting funnel with a high-converting landing page.</p>
+          </div>
+          <div class="case-col">
+            <div class="case-label">Results</div>
+            <div class="case-results">
+              <div class="case-stat"><span>₹1,340</span>New Cost Per Lead</div>
+              <div class="case-stat"><span>480</span>Qualified Leads in 45 Days</div>
+              <div class="case-stat"><span>68%</span>Drop in Ad Spend Waste</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TEAM ===== -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">The Founders</div>
+        <h2 class="section-heading">The Minds Behind<br /><em>IndieSocial</em></h2>
+        <p class="section-sub">Built by creators and growth strategists who live at the intersection of storytelling and performance.</p>
+      </div>
+      <div class="team-grid team-grid--founders">
+
+        <div class="team-card team-card--founder reveal-up delay-1">
+          <div class="team-avatar team-avatar--large" style="background: linear-gradient(135deg, #1a0a3e, #6b35a0);">
+            <span>AK</span>
+          </div>
+          <div class="team-info">
+            <h3>Aakansha Kumari</h3>
+            <span class="team-role">Founder & Creative Director</span>
+            <p>The creative force behind IndieSocial — Aakansha shapes every brand's story with intention. From visual aesthetics to content direction, she ensures that what you put out in the world actually resonates.</p>
+            <div class="team-focuses">
+              <span>Brand Vision</span>
+              <span>Creative Strategy</span>
+              <span>Content Direction</span>
+              <span>Visual Storytelling</span>
+              <span>Social Media Aesthetics</span>
+            </div>
+            <div class="team-socials">
+              <a href="#" aria-label="LinkedIn">in</a>
+              <a href="#" aria-label="Instagram">✦</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="team-card team-card--founder reveal-up delay-2">
+          <div class="team-avatar team-avatar--large" style="background: linear-gradient(135deg, #0a1a3e, #1a4a8a);">
+            <span>PS</span>
+          </div>
+          <div class="team-info">
+            <h3>Pratyay Srivastava</h3>
+            <span class="team-role">Co-Founder & Growth / Tech Lead</span>
+            <p>Pratyay is the engine under the hood — architecting growth systems, running performance campaigns, and building the technical infrastructure that turns strategy into measurable results.</p>
+            <div class="team-focuses">
+              <span>Growth Systems</span>
+              <span>Performance Marketing</span>
+              <span>Website Strategy</span>
+              <span>Automation</span>
+              <span>Technical Execution</span>
+            </div>
+            <div class="team-socials">
+              <a href="#" aria-label="LinkedIn">in</a>
+              <a href="#" aria-label="X">𝕏</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Client Stories</div>
+        <h2 class="section-heading">What Our Clients <em>Say</em></h2>
+      </div>
+      <div class="testimonials-grid">
+
+        <div class="testi-card reveal-up delay-1">
+          <div class="testi-stars">★★★★★</div>
+          <p>"IndieSocial transformed our brand presence from ground zero. In 90 days, we had an identity we were proud of and an audience that actually engaged. Best investment we made."</p>
+          <div class="testi-client">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #1a1a2e, #4a4a8a);">RM</div>
+            <div>
+              <strong>Rahul Mishra</strong>
+              <span>CEO, VoltCo Energy</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up delay-2">
+          <div class="testi-stars">★★★★★</div>
+          <p>"Their Meta Ads team is phenomenal. We cut our CPL by 68% in the first month. The team is sharp, communicative, and genuinely invested in results — not just retainers."</p>
+          <div class="testi-client">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #001a33, #0055aa);">NK</div>
+            <div>
+              <strong>Neha Kapoor</strong>
+              <span>Director, NestHaven Realty</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up delay-3">
+          <div class="testi-stars">★★★★★</div>
+          <p>"The reels they created for Verdure Organics went viral multiple times. We hit 2M views in our first quarter, and our DTC sales followed. Incredible team, incredible results."</p>
+          <div class="testi-client">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #0a2018, #1a6641);">AS</div>
+            <div>
+              <strong>Aisha Singh</strong>
+              <span>Founder, Verdure Organics</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up delay-1">
+          <div class="testi-stars">★★★★★</div>
+          <p>"I went from 2K to 38K followers on LinkedIn in 6 months. Arjun and the team crafted my voice perfectly. Three investor partnerships came directly from my content."</p>
+          <div class="testi-client">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #2d1b69, #6b35a0);">AM</div>
+            <div>
+              <strong>Aryan Mehta</strong>
+              <span>Founder, SaaSify</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up delay-2">
+          <div class="testi-stars">★★★★★</div>
+          <p>"We launched Kaffé's Shopify store and brand with IndieSocial. The attention to branding detail was extraordinary — it felt like working with a world-class studio."</p>
+          <div class="testi-client">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #1e0a00, #7a3d00);">RP</div>
+            <div>
+              <strong>Rohan Patel</strong>
+              <span>Co-Founder, Kaffé Collective</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi-card reveal-up delay-3">
+          <div class="testi-stars">★★★★★</div>
+          <p>"The AI automation they built for our Instagram DMs generates 30+ leads daily on autopilot. Game-changer for our coaching business. Priya's strategy is next level."</p>
+          <div class="testi-client">
+            <div class="testi-avatar" style="background: linear-gradient(135deg, #1a001a, #660066);">DV</div>
+            <div>
+              <strong>Dr. Divya Vora</strong>
+              <span>Business Coach & Speaker</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Pricing</div>
+        <h2 class="section-heading">Custom Plans for <em>Every Brand</em></h2>
+        <p class="section-sub">No cookie-cutter packages. Every brand is unique — so is our pricing.</p>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card reveal-up delay-1">
+          <div class="pricing-icon">🎯</div>
+          <h3>Starter Brands</h3>
+          <p>Perfect for new brands, startups, and solopreneurs ready to make their digital debut with authority.</p>
+          <div class="pricing-includes">
+            <span>Social Media Management</span>
+            <span>Content Creation</span>
+            <span>Basic Branding</span>
+          </div>
+          <a href="#contact" class="btn-primary">Get Custom Quote</a>
+        </div>
+        <div class="pricing-card pricing-featured reveal-up delay-2">
+          <div class="pricing-badge">Most Popular</div>
+          <div class="pricing-icon">🚀</div>
+          <h3>Growth Brands</h3>
+          <p>For brands serious about scaling — full-stack digital presence with performance marketing included.</p>
+          <div class="pricing-includes">
+            <span>Everything in Starter</span>
+            <span>Performance Marketing</span>
+            <span>Video Production</span>
+            <span>Monthly Strategy Sessions</span>
+          </div>
+          <a href="#contact" class="btn-primary">Book Strategy Call</a>
+        </div>
+        <div class="pricing-card reveal-up delay-3">
+          <div class="pricing-icon">👑</div>
+          <h3>Enterprise</h3>
+          <p>Full agency partnership for ambitious companies demanding excellence across every digital touchpoint.</p>
+          <div class="pricing-includes">
+            <span>Everything in Growth</span>
+            <span>AI Automation</span>
+            <span>Dedicated Account Team</span>
+            <span>Priority Turnaround</span>
+          </div>
+          <a href="#contact" class="btn-primary">Let's Talk</a>
+        </div>
+      </div>
+      <p class="pricing-note reveal-up">Every brand is different. Book a 1-on-1 strategy discussion for custom plans and pricing tailored to your goals.</p>
+    </div>
+  </section>
+
+  <!-- ===== BLOG ===== -->
+  <section class="blog" id="blog">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Insights</div>
+        <h2 class="section-heading">From the <em>IndieSocial</em> Journal</h2>
+      </div>
+      <div class="blog-grid">
+
+        <div class="blog-card reveal-up delay-1">
+          <div class="blog-thumb" style="background: linear-gradient(135deg, #1a1a2e, #0f3460);">
+            <span class="blog-thumb-icon">📱</span>
+          </div>
+          <div class="blog-content">
+            <span class="blog-cat">Social Media</span>
+            <h3>Why Reels Are Still the Highest-ROI Content Format in 2026</h3>
+            <p>Short-form video dominates attention. Here's how to script, shoot, and distribute reels that actually convert.</p>
+            <a href="#" class="blog-read">Read Article →</a>
+          </div>
+        </div>
+
+        <div class="blog-card reveal-up delay-2">
+          <div class="blog-thumb" style="background: linear-gradient(135deg, #0a2018, #1a6641);">
+            <span class="blog-thumb-icon">🎯</span>
+          </div>
+          <div class="blog-content">
+            <span class="blog-cat">Performance Marketing</span>
+            <h3>The 3-Layer Meta Ads Funnel Every Brand Should Be Running</h3>
+            <p>Cold, warm, hot — most brands only run one layer and wonder why their ROAS is tanking.</p>
+            <a href="#" class="blog-read">Read Article →</a>
+          </div>
+        </div>
+
+        <div class="blog-card reveal-up delay-3">
+          <div class="blog-thumb" style="background: linear-gradient(135deg, #1e0a00, #7a3d00);">
+            <span class="blog-thumb-icon">🤖</span>
+          </div>
+          <div class="blog-content">
+            <span class="blog-cat">AI & Automation</span>
+            <h3>How We Built an Instagram Lead Machine That Runs 24/7 on Autopilot</h3>
+            <p>AI chatbots, automated DMs, and smart lead capture — the exact stack we built for a coaching business.</p>
+            <a href="#" class="blog-read">Read Article →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">FAQ</div>
+        <h2 class="section-heading">Questions We <em>Get Asked</em> a Lot</h2>
+      </div>
+      <div class="faq-list reveal-up delay-1">
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How is pricing determined?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>Every brand gets a custom quote based on your goals, industry, content volume, and platforms. We don't believe in one-size-fits-all pricing. Book a free strategy call and we'll build a plan that fits your budget and ambition.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How long does it take to see results?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>Organic content typically shows measurable results in 60–90 days. Paid advertising campaigns can show results within the first 2 weeks. Branding projects are delivered in 2–4 weeks depending on scope.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How many revisions do I get?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>All deliverables include 2 rounds of revisions as standard. Additional revision rounds can be added based on your plan. We prioritize getting it right — not just getting it done.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Can you guarantee social media growth?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>While no ethical agency guarantees specific follower numbers (platforms change algorithms constantly), we do guarantee strategic consistency, quality content, and measured growth trajectories. Our average client sees 3–8x growth in the first 6 months.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>Do you manage ad budgets or just creatives?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>We do both. Our performance marketing team handles everything — from ad creative production to campaign setup, audience targeting, bid strategy, daily optimization, and monthly reporting. Your ad budget goes directly into your ad account; we charge a management fee.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            <span>How long does website development take?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9l6 6 6-6"/></svg>
+          </button>
+          <div class="faq-a">
+            <p>Landing pages and link-in-bio pages: 3–5 business days. Portfolio and business websites: 1–2 weeks. Shopify stores: 2–3 weeks. Timelines include up to 2 revision rounds and testing.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">Get In Touch</div>
+        <h2 class="section-heading">Ready to Build<br />Something <em>Remarkable?</em></h2>
+        <p class="section-sub">Book a free 30-minute strategy call. No hard sell — just clarity on how we can grow your brand.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left reveal-left">
+          <div class="contact-info-cards">
+            <a href="mailto:Contact@indiesocials.com" class="contact-info-card">
+              <div class="contact-info-icon">✉</div>
+              <div>
+                <strong>Email Us</strong>
+                <span>Contact@indiesocials.com</span>
+              </div>
+            </a>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="contact-info-card">
+              <div class="contact-info-icon">💬</div>
+              <div>
+                <strong>WhatsApp</strong>
+                <span>Chat directly with our team</span>
+              </div>
+            </a>
+            <a href="https://instagram.com/indiesocials" target="_blank" class="contact-info-card">
+              <div class="contact-info-icon">📸</div>
+              <div>
+                <strong>Instagram</strong>
+                <span>@indiesocials</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/company/indiesocials" target="_blank" class="contact-info-card">
+              <div class="contact-info-icon">in</div>
+              <div>
+                <strong>LinkedIn</strong>
+                <span>IndieSocial Agency</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right reveal-right">
+          <div class="contact-form-wrap">
+            <form class="contact-form" id="contactForm">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Your Name</label>
+                  <input type="text" placeholder="Arjun Singh" required />
+                </div>
+                <div class="form-group">
+                  <label>Company</label>
+                  <input type="text" placeholder="BrandName Inc." />
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="you@company.com" required />
+              </div>
+              <div class="form-group">
+                <label>Service Interested In</label>
+                <select>
+                  <option value="">Select a service</option>
+                  <option>Social Media Management</option>
+                  <option>Content Creation</option>
+                  <option>Branding & Identity</option>
+                  <option>Performance Marketing</option>
+                  <option>Website Development</option>
+                  <option>Video Editing</option>
+                  <option>AI Automation</option>
+                  <option>Personal Brand Management</option>
+                  <option>Full-Service Partnership</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Tell Us About Your Goal</label>
+                <textarea placeholder="We're launching a new product and need..." rows="4" required></textarea>
+              </div>
+              <button type="submit" class="btn-primary form-submit">
+                <span>Send Message</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <span class="logo-mark">IS</span>
+            <span class="logo-text">IndieSocial</span>
+          </div>
+          <p class="footer-desc">A premium digital growth agency helping brands scale through social media, content, and performance-driven strategy. Est. 2026.</p>
+          <div class="footer-socials">
+            <a href="https://instagram.com/indiesocials" target="_blank" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="https://linkedin.com/company/indiesocials" target="_blank" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="3"/><path d="M7 10v7M7 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg>
+            </a>
+            <a href="#" target="_blank" aria-label="X / Twitter">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="https://wa.me/91XXXXXXXXXX" target="_blank" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21l1.65-3.8A9 9 0 1 1 12 21a8.96 8.96 0 0 1-4.3-1.1L3 21z"/><path d="M9 10c0 .55.45 1 1 1h4a1 1 0 0 0 1-1v-.5a2.5 2.5 0 0 0-5 0V10z" stroke="none" fill="currentColor" opacity=".3"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-group">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="#services">Social Media Management</a></li>
+            <li><a href="#services">Content Creation</a></li>
+            <li><a href="#services">Branding & Identity</a></li>
+            <li><a href="#services">Performance Marketing</a></li>
+            <li><a href="#services">Website Development</a></li>
+            <li><a href="#services">Video Editing</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#faq">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:Contact@indiesocials.com">Contact@indiesocials.com</a></li>
+            <li><a href="https://wa.me/91XXXXXXXXXX">WhatsApp Chat</a></li>
+            <li><a href="#contact">Book Strategy Call</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 IndieSocial. All rights reserved.</span>
+        <span class="footer-tagline">Content That Actually Connects ✦</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== FLOATING CONTACT ===== -->
+  <div class="floating-contact" id="floatingContact">
+    <div class="floating-btn-group">
+      <a href="https://wa.me/91XXXXXXXXXX" target="_blank" class="float-btn float-wa" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+      </a>
+      <a href="mailto:Contact@indiesocials.com" class="float-btn float-gmail" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
